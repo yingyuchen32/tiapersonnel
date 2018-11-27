@@ -104,14 +104,14 @@ nav {
 
 .nav {
     width: 1260px;
-    display: table;
     margin: 0 auto;
+    text-align: center;
     z-index: 0;
 }
 
 /* Menu List */
 .nav>li {
-    display: table-cell;
+    display: inline-block;
     position: relative;
     text-align: center;
 }
