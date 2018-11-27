@@ -37,13 +37,12 @@ header {
 }
 
 .wrapper {
-    max-width: 1260px;
+    width: 1260px;
     margin: 0 auto;
     clear: both;
 }
 
 .table {
-    width: 100%;
     display: table;
 }
 
@@ -104,6 +103,7 @@ nav {
 }
 
 .nav {
+    width: 1260px;
     display: table;
     margin: 0 auto;
     z-index: 0;
@@ -113,6 +113,7 @@ nav {
 .nav>li {
     display: table-cell;
     position: relative;
+    text-align: center;
 }
 
 /* Menu Links */
