@@ -142,12 +142,12 @@ nav {
 .banner {
     max-width: 1920px;
     max-height: 556px;
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
 
 .banner img {
-    margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
