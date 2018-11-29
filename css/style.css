@@ -283,6 +283,26 @@ section {
     background-color: #224126;
 }
 
+.act {
+    background-color: #e4551a;
+}
+
+.newin {
+    background-color: #00a2c8;
+}
+
+.stay {
+    background-color: #3f5162;
+}
+
+.rule {
+    background-color: #007940;
+}
+
+.class {
+    background-color: #005f75;
+}
+
 .time {
     display: table-cell;
     padding: 0 15px;
