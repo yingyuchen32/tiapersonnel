@@ -69,6 +69,10 @@ header {
     position: relative;
 }
 
+.title a {
+    color: #002304;
+}
+
 .search_box {
     float: right;
     top: 50px;
