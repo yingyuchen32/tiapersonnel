@@ -186,7 +186,7 @@ aside {
 }
 
 .blocktitle2:before {
-    border-top: 2px solid #162838;
+    border-top: 2px solid #0B487F;
     content: "";
     margin: 0 auto;
     /* this centers the line to the full width specified */
@@ -221,7 +221,7 @@ aside {
 }
 
 .blocktitle2 a span {
-    color: #162838;
+    color: #0B487F;
 }
 
 .calender_box {

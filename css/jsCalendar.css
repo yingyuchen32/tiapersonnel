@@ -256,7 +256,7 @@
 			border-radius: 0;
 		}
 		.jsCalendar.classic-theme2 thead {
-			background-color: #162838;
+			background-color: #0B487F;
 			margin: 0;
 			padding: 0 4px;
 		}
@@ -295,7 +295,7 @@
 			background-color: #002304;
 		}
 		.jsCalendar.classic-theme2 thead .jsCalendar-week-days {
-		    background-color: #3F5162;
+		    background-color: #376187;
 		    display: block;
 		    margin: 0 -4px;
 		    padding: 5px 0;
