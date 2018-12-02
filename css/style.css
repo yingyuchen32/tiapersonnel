@@ -97,6 +97,32 @@ header {
     border: none;
 }
 
+.search_box2 {
+    float: right;
+    top: 16px;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.search_box2 .search-wrapper input[type=text] {
+    width: 160px;
+    height: 30px;
+    color: #002304;
+    padding: 0 10px;
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+}
+
+.search_box2 .search-wrapper button {
+    width: 45px;
+    height: 30px;
+    top: -1px;
+    position: relative;
+    background-color: #EFEFEF;
+    border: 1px solid #C4C4C4;
+}
+
 /* navigations */
 nav {
     width: 100%;
@@ -148,6 +174,7 @@ nav {
     height: auto;
     position: relative;
     overflow: hidden;
+    display: flex;
 }
 
 .banner img {
@@ -402,9 +429,14 @@ section {
     transition: all .3s;
 }
 
-.accordion-header a, 
+.accordion-header a,
 .accordion-body__contents ul a {
     color: #3F5162;
+}
+
+.accordion-body__contents ul a.active {
+    color: #224126;
+    font-weight: bold;
 }
 
 .accordion-header:hover {
@@ -501,6 +533,195 @@ section {
 .photolist img {
     max-width: 100%;
     height: auto;
+}
+
+.breadbox {
+    margin: 30px auto;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    padding: 0 0 0 15px;
+}
+
+.breadcrumb img {
+    padding: 0 5px 0 0;
+}
+
+.breadcrumb a {
+    color: #232323;
+}
+
+.breadcrumb a.active {
+    color: #224126;
+    font-weight: bold;
+}
+
+.nomg {
+    margin: 0 auto;
+}
+
+.seletbox {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 160px;
+    height: 30px;
+    top: 8px;
+    font-size: 14px;
+}
+
+.dropdown a {
+    color: #232323;
+}
+
+.dropdown-text {
+    cursor: pointer;
+    position: absolute;
+    text-indent: 10px;
+    line-height: 28px;
+    border: 1px solid #C4C4C4;
+    width: 100%;
+}
+
+.dropdown-text:after {
+    position: absolute;
+    right: 6px;
+    top: 13px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    border-color: #002304 transparent transparent transparent;
+}
+
+.dropdown-text,
+.dropdown-content a {
+    color: #333;
+    text-shadow: 0 1px #fff;
+}
+
+.dropdown-toggle {
+    font-size: 0;
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    border: none;
+    padding: 0;
+    margin: 0 0 0 1px;
+    background: transparent;
+    text-indent: -10px;
+    height: 30px;
+    width: 100%;
+}
+
+.dropdown-toggle:focus {
+    outline: 0;
+}
+
+.dropdown-content {
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    list-style-type: none;
+    position: absolute;
+    top: 30px;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    text-indent: 10px;
+    line-height: 28px;
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+    width: 160px;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #e8e8e8;
+}
+
+
+.dropdown-toggle:hover~.dropdown-text,
+.dropdown-toggle:focus~.dropdown-text {
+    background-color: #e8e8e8;
+}
+
+.dropdown-toggle:focus~.dropdown-text {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2) inset, 0 1px 0 rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
+
+.dropdown-toggle:focus~.dropdown-text:after {
+    border-width: 0 4px 5px 4px;
+    border-color: transparent transparent #555 transparent;
+}
+
+.dropdown-content:hover,
+.dropdown-toggle:focus~.dropdown-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.filebox ul {
+    padding: 0;
+}
+
+.filebox ul li {
+    list-style: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-bottom: 1px dashed #224126;
+}
+
+.filebox ul li:nth-child(odd) {
+    background: #F8FCFF;
+}
+
+.filebox ul li:first-child {
+    background-color: #002304;
+    color: #fff;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.filebox ul li:last-child {
+    border-bottom: 2px solid #224126;
+}
+
+.filebox a {
+    color: #000;
+}
+
+.filetitle, .filename {
+    display: table-cell;
+    width: 700px;
+    vertical-align: middle;
+}
+
+.downtitle, .download {
+    display: table-cell;
+    width: 210px;
+    text-align: right;
+}
+
+.download img {
+    padding: 0 20px;
+    vertical-align: middle;
 }
 
 footer {
