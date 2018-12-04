@@ -15,7 +15,27 @@
     <link rel="stylesheet" href="css/venobox.css">
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src='js/ajaxcontent.js'></script>
+    <script>
+            $(document).ready(function() {
+                $("#asidemenu").html("Loading...");
+                
+                var pagelink = "component/";
+                var url = pagelink + "asidemenu.html";
+                
+                $.ajax({
+                    async: true,
+                    url : url,
+                    type : "GET",
+                    dataType : "html"
+                }).done(function(data) {        
+                    $("#asidemenu").html(data);
+                    $("#asidemenu script").each(function() {
+                        var jsLink = pagelink + $(this).attr('src');
+                        $("head").append("<script src='" + jsLink + "' ></script>")
+                    });
+                });
+            });
+    </script>
 </head>
 
 <body>
