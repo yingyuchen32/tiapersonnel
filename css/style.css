@@ -434,7 +434,7 @@ section {
     color: #3F5162;
 }
 
-.accordion-body__contents ul a.active {
+.accordion-body__contents ul li a.active {
     color: #224126;
     font-weight: bold;
 }
