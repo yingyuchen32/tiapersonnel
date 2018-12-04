@@ -94,7 +94,7 @@ function openMenu(el) {
 $(function() {
     var url = window.location.pathname,
         urlRegExp = new RegExp(url.replace(/\/$/, '') + "$");
-    $('a').each(function() {
+    $('.accordion-body__contents ul li a').each(function() {
         if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
             $(this).addClass('active');
         }
