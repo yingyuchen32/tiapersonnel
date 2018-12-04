@@ -676,8 +676,13 @@ section {
     visibility: visible;
 }
 
+.filebox {
+    margin: 15px auto;
+}
+
 .filebox ul {
     padding: 0;
+    margin: 0;
 }
 
 .filebox ul li {
@@ -687,11 +692,11 @@ section {
     border-bottom: 1px dashed #224126;
 }
 
-.filebox ul li:nth-child(odd) {
+.filebox ul li:nth-child(even) {
     background: #F8FCFF;
 }
 
-.filebox ul li:first-child {
+.filebox .filehead {
     background-color: #002304;
     color: #fff;
     padding: 10px 40px;
