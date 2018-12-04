@@ -570,7 +570,7 @@ section {
     position: relative;
     display: inline-block;
     text-align: left;
-    width: 160px;
+    width: 205px;
     height: 30px;
     top: 8px;
     font-size: 14px;
@@ -643,7 +643,7 @@ section {
     line-height: 28px;
     background-color: #fff;
     border: 1px solid #C4C4C4;
-    width: 160px;
+    width: 205px;
 }
 
 .dropdown-content a {
