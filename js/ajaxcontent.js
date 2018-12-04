@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#asidemenu").html("Loading...");
     
-    var pagelink = "component";
+    var pagelink = "pages/component";
     var url = pagelink + "asidemenu.html";
     
     $.ajax({
