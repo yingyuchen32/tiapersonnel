@@ -99,4 +99,9 @@ $(function() {
             $(this).addClass('active');
         }
     });
+    $('.js-accordion-item').each(function() {
+        if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
+            $(this).addClass('active');
+        }
+    });
 });
