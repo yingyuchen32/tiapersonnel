@@ -678,7 +678,7 @@ section {
 .filetitle,
 .filename {
     display: table-cell;
-    width: 480px;
+    width: 590px;
     vertical-align: middle;
     padding-left: 10px;
 }
