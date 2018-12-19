@@ -475,24 +475,39 @@ section {
 }
 
 .accordion-body {
-    background: #E1F1FF;
+    background: #f8fcff;
     color: #3F5162;
     display: none;
 }
 
 .accordion-body__contents {
-    padding: 10px;
-    font-size: 16px;
+    /*padding: 10px;*/
+    font-size: 15px;
 }
 
 .accordion-body__contents ul {
-    padding: 0 0 0 30px;
+    padding: 0;
     margin: 0;
 }
 
 .accordion-body__contents ul li {
-    padding: 5px 0;
+    list-style: none;
+    padding-left: 15px;
 }
+
+.accordion-body__contents ul li:hover {
+    background: #E1F1FF;
+}
+
+.accordion-body__contents ul li a {
+    display: block;
+    background-image: url(../img/dot.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 8px 0;
+    text-indent: 15px;
+}
+
 
 .accordion__item.active:last-child .accordion-header {
     border-radius: none;
