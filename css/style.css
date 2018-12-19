@@ -495,7 +495,7 @@ section {
     padding-left: 15px;
 }
 
-.accordion-body__contents ul li:hover {
+.accordion-body__contents ul li:hover, .accordion-body__contents ul li.active {
     background: #E1F1FF;
 }
 
