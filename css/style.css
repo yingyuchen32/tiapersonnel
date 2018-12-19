@@ -50,6 +50,13 @@ header {
     top: 15px;
 }
 
+.txtcenter {
+    text-align: center;
+}
+.txtbold {
+    font-weight: bold;
+}
+
 .logo {
     width: 313px;
     height: 90px;
@@ -434,9 +441,8 @@ section {
     border-radius: 5px;
 }
 
-.accordion-header,
-.accordion-body {
-    background: white;
+.accordion_box.qa .accordion-header {
+    background: #fff;
 }
 
 .accordion-header {
@@ -451,6 +457,10 @@ section {
 
 .js-accordion-header {
     padding: 15px;
+}
+
+.accordion_box.qa .accordion:first-child>.accordion__item>.accordion-header {
+    border-bottom: 1px dashed #a0a0a0;
 }
 
 .accordion-header a,
@@ -481,7 +491,6 @@ section {
 }
 
 .accordion-body__contents {
-    /*padding: 10px;*/
     font-size: 15px;
 }
 
@@ -495,7 +504,27 @@ section {
     padding-left: 15px;
 }
 
-.accordion-body__contents ul li:hover, .accordion-body__contents ul li.active {
+.accordion-body__contents p {
+    padding: 20px 45px;
+    font-size: 16px;
+    margin: 0;
+    line-height: 32px;
+}
+
+.accordion-body__contents p span {
+    color: #DB4437;
+    border-bottom: 1px solid #DB4437;
+    font-weight: bold;
+}
+
+.accordion-body__contents img {
+    max-width: 715px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.accordion-body__contents ul li:hover, .accordion-body__contents ul li.active, .accordion_box.qa .accordion-header.js-accordion-header:hover {
     background: #E1F1FF;
 }
 
