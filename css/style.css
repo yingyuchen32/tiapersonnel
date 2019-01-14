@@ -924,12 +924,12 @@ ul.tabs li {
     padding: 0px 21px;
     height: 32px;
     line-height: 32px;
-    border-top: 1px solid #002304;
-    border-left: 1px solid #002304;
-    border-bottom: 1px solid #002304;
+    border: 1px solid #002304;
     color: #002304;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
+    margin: 0 10px 0 0;
 }
 
 .tab_last { border-right: 1px solid #333; }
