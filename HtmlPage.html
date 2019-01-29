@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1260" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>桃園機場人事服務網</title>
+    <link rel="shortcut icon" href="img/tia.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- calendar -->
+    <link rel="stylesheet" href="css/calendar.css" />
+    <!-- venobox -->
+    <link rel="stylesheet" href="css/venobox.css" />
+</head>
+
+<body>
+    <form method="post" action="./index.aspx" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjY4NjQzMDA3DxYCHghEb3dubG9hZAWEBCA8bGk+IDxhIGhyZWY9IkluZm9EZXRhaWwuYXNweD9jaWQ9MTQ3Ij48ZGl2IGNsYXNzPSJuZXdzdGl0bGUiPiA8ZGl2IGNsYXNzPSJpbmZvIj48ZGl2IGNsYXNzPSJ0YWcgYWN0Ij7mtLvli5U8L2Rpdj4gPGRpdiBjbGFzcz0idGltZSI+MTA4LjAxLjE4PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ibmV3cyI+5rS75YuVVEVTVDxicj7mtLvli5VURVNU5rS75YuVVEVTVOa0u+WLlVRFU1TmtLvli5VURVNU5rS75YuVVEVTVOa0u+WLlVRFU1TmtLvli5VURVNU44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CAPC9kaXY+PC9kaXY+PGRpdiBDbGFzcz0iYXJyb3dzIj48aW1nIHNyYz0iaW1nL3JpZ2h0LWFycm93LnBuZyIgYWx0PSIiPjwvZGl2PjwvYT48L2xpPhYCAgEPZBYGAgEPDxYGHgtDdXR0ZW50RGF0ZQUKMjAxOS8wMS8wMR4KY2FsZW5kZXJIUgXQCDx0YWJsZT48dGhlYWQ+PHRyIENsYXNzPSJjYWxlbmRhci10aXRsZS1yb3ciPjx0aCBjb2xzcGFuPSIgNyIgQ2xhc3M9IiBjYWxlbmRhci10aXRsZSI+IDxkaXYgQ2xhc3M9ImNhbGVuZGFyLXRpdGxlLWxlZnQiPiA8YSBocmVmPWluZGV4LmFzcHg/ZD0yMDE4LzEyLzAxIGNsYXNzPSdjYWxlbmRhci1uYXYtbGVmdCc+PC9hPiA8L2Rpdj4gPGRpdiBDbGFzcz0iY2FsZW5kYXItdGl0bGUtbmFtZSI+PGEgaHJlZj0iY2FsZW5kYXIuYXNweD9JbmZvPUgmZD0yMDE5LzAxLzAxIj48Zm9udCBjb2xvcj0jZmZmZmZmPuS4gOaciDwvZm9udD48L2E+PC9kaXY+PGRpdiBDbGFzcz0iY2FsZW5kYXItdGl0bGUtcmlnaHQiPiA8YSBocmVmPWluZGV4LmFzcHg/ZD0yMDE5LzAyLzAxIGNsYXNzPSdjYWxlbmRhci1uYXYtcmlnaHQnPjwvYT48L2Rpdj48L3RoPiA8L3RyPiA8dHIgQ2xhc3M9ImNhbGVuZGFyLXdlZWstZGF5cyI+PHRoPuaXpTwvdGg+PHRoPuS4gDwvdGg+PHRoPuS6jDwvdGg+PHRoPuS4iTwvdGg+PHRoPuWbmzwvdGg+PHRoPuS6lDwvdGg+PHRoPuWFrTwvdGg+IDwvdHI+IDwvdGhlYWQ+IDx0Ym9keT48dHI+PHRkIENsYXNzPSJjYWxlbmRhci1wcmV2aW91cyI+MzA8L3RkPjx0ZCBDbGFzcz0iY2FsZW5kYXItcHJldmlvdXMiPjMxPC90ZD48dGQ+MTwvdGQ+PHRkPjI8L3RkPjx0ZD4zPC90ZD48dGQ+NDwvdGQ+PHRkPjU8L3RkPjwvdHI+PHRyPjx0ZD42PC90ZD48dGQ+NzwvdGQ+PHRkPjg8L3RkPjx0ZD45PC90ZD48dGQ+MTA8L3RkPjx0ZD4xMTwvdGQ+PHRkPjEyPC90ZD48L3RyPjx0cj48dGQ+MTM8L3RkPjx0ZD4xNDwvdGQ+PHRkPjE1PC90ZD48dGQ+MTY8L3RkPjx0ZD4xNzwvdGQ+PHRkPjE4PC90ZD48dGQ+MTk8L3RkPjwvdHI+PHRyPjx0ZD4yMDwvdGQ+PHRkPjIxPC90ZD48dGQ+MjI8L3RkPjx0ZD4yMzwvdGQ+PHRkPjI0PC90ZD48dGQ+MjU8L3RkPjx0ZD4yNjwvdGQ+PC90cj48dHI+PHRkPjI3PC90ZD48dGQ+Mjg8L3RkPjx0ZD4yOTwvdGQ+PHRkPjMwPC90ZD48dGQ+MzE8L3RkPjx0ZCBDbGFzcz0iY2FsZW5kYXItcHJldmlvdXMiPjE8L3RkPjx0ZCBDbGFzcz0iY2FsZW5kYXItcHJldmlvdXMiPjI8L3RkPjwvdHI+PC90Ym9keT48L3RhYmxlPh4MY2FsZW5kZXJDYXJlBdAIPHRhYmxlPjx0aGVhZD48dHIgQ2xhc3M9ImNhbGVuZGFyLXRpdGxlLXJvdyI+PHRoIGNvbHNwYW49IiA3IiBDbGFzcz0iIGNhbGVuZGFyLXRpdGxlIj4gPGRpdiBDbGFzcz0iY2FsZW5kYXItdGl0bGUtbGVmdCI+IDxhIGhyZWY9aW5kZXguYXNweD9kPTIwMTgvMTIvMDEgY2xhc3M9J2NhbGVuZGFyLW5hdi1sZWZ0Jz48L2E+IDwvZGl2PiA8ZGl2IENsYXNzPSJjYWxlbmRhci10aXRsZS1uYW1lIj48YSBocmVmPSJjYWxlbmRhci5hc3B4P0luZm89QyZkPTIwMTkvMDEvMDEiPjxmb250IGNvbG9yPSNmZmZmZmY+5LiA5pyIPC9mb250PjwvYT48L2Rpdj48ZGl2IENsYXNzPSJjYWxlbmRhci10aXRsZS1yaWdodCI+IDxhIGhyZWY9aW5kZXguYXNweD9kPTIwMTkvMDIvMDEgY2xhc3M9J2NhbGVuZGFyLW5hdi1yaWdodCc+PC9hPjwvZGl2PjwvdGg+IDwvdHI+IDx0ciBDbGFzcz0iY2FsZW5kYXItd2Vlay1kYXlzIj48dGg+5pelPC90aD48dGg+5LiAPC90aD48dGg+5LqMPC90aD48dGg+5LiJPC90aD48dGg+5ZubPC90aD48dGg+5LqUPC90aD48dGg+5YWtPC90aD4gPC90cj4gPC90aGVhZD4gPHRib2R5Pjx0cj48dGQgQ2xhc3M9ImNhbGVuZGFyLXByZXZpb3VzIj4zMDwvdGQ+PHRkIENsYXNzPSJjYWxlbmRhci1wcmV2aW91cyI+MzE8L3RkPjx0ZD4xPC90ZD48dGQ+MjwvdGQ+PHRkPjM8L3RkPjx0ZD40PC90ZD48dGQ+NTwvdGQ+PC90cj48dHI+PHRkPjY8L3RkPjx0ZD43PC90ZD48dGQ+ODwvdGQ+PHRkPjk8L3RkPjx0ZD4xMDwvdGQ+PHRkPjExPC90ZD48dGQ+MTI8L3RkPjwvdHI+PHRyPjx0ZD4xMzwvdGQ+PHRkPjE0PC90ZD48dGQ+MTU8L3RkPjx0ZD4xNjwvdGQ+PHRkPjE3PC90ZD48dGQ+MTg8L3RkPjx0ZD4xOTwvdGQ+PC90cj48dHI+PHRkPjIwPC90ZD48dGQ+MjE8L3RkPjx0ZD4yMjwvdGQ+PHRkPjIzPC90ZD48dGQ+MjQ8L3RkPjx0ZD4yNTwvdGQ+PHRkPjI2PC90ZD48L3RyPjx0cj48dGQ+Mjc8L3RkPjx0ZD4yODwvdGQ+PHRkPjI5PC90ZD48dGQ+MzA8L3RkPjx0ZD4zMTwvdGQ+PHRkIENsYXNzPSJjYWxlbmRhci1wcmV2aW91cyI+MTwvdGQ+PHRkIENsYXNzPSJjYWxlbmRhci1wcmV2aW91cyI+MjwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+ZGQCAw8PFgIfAAWVBzxsaT48YSBjbGFzcz0idmVub2JveCIgZGF0YS1nYWxsPSIxNDgiIGRhdGEtdGl0bGU9Iua0u+WLleWJquW9sVRFU1QiIGhyZWY9Imh0dHA6Ly9lYXBzL0RhdGFGaWxlL0VBUC8yMDE5MDExODExMzAyNDQxNi5wbmciPjxpbWcgIHNyYz0iaHR0cDovL2VhcHMvRGF0YUZpbGUvRUFQLzIwMTkwMTE4MTEzMDI0NDE2LnBuZyIgLz48L2E+PC9saT48bGk+PGEgY2xhc3M9InZlbm9ib3giIGRhdGEtZ2FsbD0iMTQ5IiBkYXRhLXRpdGxlPSJURVNUMiIgaHJlZj0iaHR0cDovL2VhcHMvRGF0YUZpbGUvRUFQLzIwMTkwMTE4MTEzMDQzOTk0LnBuZyI+PGltZyAgc3JjPSJodHRwOi8vZWFwcy9EYXRhRmlsZS9FQVAvMjAxOTAxMTgxMTMwNDM5OTQucG5nIiAvPjwvYT48L2xpPjxsaT48YSBjbGFzcz0idmVub2JveCIgZGF0YS1nYWxsPSIxNjEiIGRhdGEtdGl0bGU9ImhoaCIgaHJlZj0iaHR0cDovL2VhcHMvRGF0YUZpbGUvRUFQLzIwMTkwMTI5MTAzNDEyNTA1LmpwZyI+PGltZyAgc3JjPSJodHRwOi8vZWFwcy9EYXRhRmlsZS9FQVAvMjAxOTAxMjkxMDM0MTI1MDUuanBnIiAvPjwvYT48L2xpPjxsaT48YSBjbGFzcz0idmVub2JveCIgZGF0YS1nYWxsPSIxNzIiIGRhdGEtdGl0bGU9ImdnZ2ciIGhyZWY9Imh0dHA6Ly9lYXBzL0RhdGFGaWxlL0VBUC8yMDE5MDEyOTExMzkxMzY5Ny5qcGciPjxpbWcgIHNyYz0iaHR0cDovL2VhcHMvRGF0YUZpbGUvRUFQLzIwMTkwMTI5MTEzOTEzNjk3LmpwZyIgLz48L2E+PC9saT48bGk+PGEgY2xhc3M9InZlbm9ib3giIGRhdGEtZ2FsbD0iMTczIiBkYXRhLXRpdGxlPSJqampqIiBocmVmPSJodHRwOi8vZWFwcy9EYXRhRmlsZS9FQVAvMjAxOTAxMjkxMTM5NTg0NTQuanBnIj48aW1nICBzcmM9Imh0dHA6Ly9lYXBzL0RhdGFGaWxlL0VBUC8yMDE5MDEyOTExMzk1ODQ1NC5qcGciIC8+PC9hPjwvbGk+ZGQCBA8PFgQeDE1vbnRoQ291bnRlcgcAAAAAAADwPx4KV2ViQ291bnRlcgL0LGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBRRoZWFkZXIxJEltYWdlQnV0dG9uMYZCgHZ0w527pg1U72x1NyJyZqsqHr0HGwhwzaeGXPe6" />
+        </div>
+
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="559A09AE" />
+        </div>
+        <header>
+
+
+            <div class="wrapper table">
+                <div class="logo"></div>
+                <h1 class="title"><a href="index.aspx">人事服務專區</a></h1>
+                <div class="search_box">
+                    <form class="search-wrapper">
+                        <input name="header1$TextBox1" type="text" id="header1_TextBox1" />
+                        <input type="image" name="header1$ImageButton1" id="header1_ImageButton1" title="網內搜尋" src="img/magnifying-glass.png" />
+                    </form>
+                </div>
+            </div>
+            <nav>
+                <ul class="navbox nav">
+                    <li><a href="Staff.aspx">認識人事服務專員</a></li>
+                    <li><a href="newmember.aspx?m=6">新進人員專區</a></li>
+                    <li><a href="funday.aspx">Funday線上英文學習</a></li>
+                    <li><a href="reading.aspx">專書閱讀得獎作品</a></li>
+                    <li><a href="Subsidy.aspx?m=8&s=81">福利專區</a></li>
+                    <li><a target="eaps" href="http://eaps">員工協助方案</a></li>
+                </ul>
+            </nav><!-- /nav -->
+
+        </header><!-- /header -->
+
+        <div class="banner">
+            <img src="img/banner.jpg" alt="安全、正直、專業、創新、熱情">
+        </div><!-- /banner -->
+
+        <div class="wrapper table pd30">
+            <aside>
+
+                <!-- jsCalendar -->
+                <link rel="stylesheet" href="css/jsCalendar.css">
+                <!-- calendar -->
+                <link rel="stylesheet" href="css/calendar.css">
+                <div id="calender_box_plhHR">
+
+                    <div class="calender_box">
+                        <div class="blocktitle">
+                            <a href="calendar.aspx"><span>人事服務行事曆</span></a>
+                        </div>
+                        <div class="auto-calendar classic-theme calendar">
+
+                            <table><thead><tr Class="calendar-title-row"><th colspan=" 7" Class=" calendar-title"> <div Class="calendar-title-left"> <a href=index.aspx?d =2018/12/01 class='calendar-nav-left'></a> </div> <div Class="calendar-title-name"><a href="calendar.aspx?Info=H&d=2019/01/01"><font color=#ffffff>一月</font></a></div><div Class="calendar-title-right"> <a href=index.aspx?d =2019/02/01 class='calendar-nav-right'></a></div></th> </tr> <tr Class="calendar-week-days"><th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th> </tr> </thead> <tbody><tr><td Class="calendar-previous">30</td><td Class="calendar-previous">31</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr><tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr><tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr><tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td Class="calendar-previous">1</td><td Class="calendar-previous">2</td></tr></tbody></table>
+
+                        </div>
+                    </div><!-- /人事服務行事曆 -->
+
+
+                </div>
+
+                <div id="calender_box_plhCARE">
+
+
+                    <div class="calender_box">
+                        <div class="blocktitle2">
+                            <a href="calendar.aspx"><span>關懷中心行事曆</span></a>
+                        </div>
+
+                        <div class="auto-calendar classic-theme2 calendar">
+
+                            <table><thead><tr Class="calendar-title-row"><th colspan=" 7" Class=" calendar-title"> <div Class="calendar-title-left"> <a href=index.aspx?d =2018/12/01 class='calendar-nav-left'></a> </div> <div Class="calendar-title-name"><a href="calendar.aspx?Info=C&d=2019/01/01"><font color=#ffffff>一月</font></a></div><div Class="calendar-title-right"> <a href=index.aspx?d =2019/02/01 class='calendar-nav-right'></a></div></th> </tr> <tr Class="calendar-week-days"><th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th> </tr> </thead> <tbody><tr><td Class="calendar-previous">30</td><td Class="calendar-previous">31</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr><tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr><tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr><tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td Class="calendar-previous">1</td><td Class="calendar-previous">2</td></tr></tbody></table>
+
+                        </div>
+
+                    </div><!-- /關懷中心行事曆 -->
+
+                </div>
+
+
+                <div class="accordion_box">
+                    <div class="accordion js-accordion">
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header no digibox"><a href="#">數位人才培訓發展平台</a></div>
+
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">組織改造</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="inpage1_1.aspx?m=1">組織改造與員工權益保障宣導</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">人事規章</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="inpage2_1.aspx?m=2&s=21">組織編制</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=22">任免遷調</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=23">考核獎懲</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=24">訓練進修</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=25">差勤管理</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=26">待遇獎金</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=27">退休撫卹</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=28">性別平等</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=29">性騷擾防治</a></li>
+                                        <li><a href="inpage2_1.aspx?m=2&s=210">工作生活平衡-EAP</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">人事表單及申請流程</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="inpage3_1.aspx?m=3&s=31">勞‧健‧公保申請程序及表單</a></li>
+
+                                        <li><a href="inpage3_4.aspx?m=3&s=34">考核程序及表單</a></li>
+                                        <li><a href="inpage3_5.aspx?m=3&s=35">獎懲程序及表單</a></li>
+                                        <li><a href="inpage3_6.aspx?m=3&s=36">服務楷模推薦程序及表單</a></li>
+                                        <li><a href="inpage3_7.aspx?m=3&s=37">教育訓練申請程序及表單</a></li>
+                                        <li><a href="inpage3_8.aspx?m=3&s=38">員工協助方案申請程序及表單</a></li>
+                                        <li><a href="inpage3_9.aspx?m=3&s=39">因公出國申請程序及表單</a></li>
+                                        <li><a href="inpage3_10.aspx?m=3&s=310">晉升及調職程序及表單</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">員工關懷中心</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="calendar.aspx?m=4&s=41&Info=C&d=">員工關懷中心行事曆</a></li>
+                                        <li><a href="ptest.aspx?m=4&s=42">心理量表檢測</a></li>
+                                        <li><a href="resource.aspx?m=4&s=43">輔助資源</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">愛兒寶托嬰中心</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="lovebaby.aspx?m=5&s=51">中心介紹</a></li>
+                                        <li><a href="lovebaby_reg.aspx?m=5&52">線上報名</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">新進人員專區</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="newmember_1.aspx?m=6&s=61">新進人員須知</a></li>
+                                        <li><a href="newmember_2.aspx?m=6&s=62">新人輔導員制度</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">退休服務專區</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="retire.aspx?m=7&s=71">辦理退休程序作業</a></li>
+                                        <li><a href="retirequery.aspx?m=7&s=72">退休金查詢</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">福利專區</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="Subsidy.aspx?m=8&s=81">職福會補助事項</a></li>
+                                        <li><a href="Shop.aspx?m=8&s=82">特約商店</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                        <div class="accordion__item js-accordion-item">
+                            <div class="accordion-header js-accordion-header">QA問答集</div>
+                            <div class="accordion-body js-accordion-body">
+                                <div class="accordion-body__contents">
+                                    <ul>
+                                        <li><a href="qa_1.aspx?m=9&s=91">諮商諮詢QA</a></li>
+                                        <li><a href="qa_2.aspx?m=9&s=92">加班作業</a></li>
+                                        <li><a href="qa_3.aspx?m=9&s=93">請假、休假、差勤作業</a></li>
+                                        <li><a href="qa_4.aspx?m=9&s=94">獎金計算</a></li>
+                                        <li><a href="qa_6.aspx?m=9&s=96">終身學習時數</a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- end of accordion body -->
+                        </div><!-- end of accordion item -->
+
+                    </div><!-- end of accordion -->
+                </div>
+
+                <div class="banner_box">
+                    <div class="blocktitle">
+                        <span>常用連結</span>
+                    </div>
+                    <div class="banner_s">
+                        <a href="https://wfs.mol.gov.tw/WFWeb/index.aspx" target="_blank">
+                            <img src="img/240x70_1.png" alt="勞動部勞工福利資訊網">
+                        </a>
+                    </div>
+                    <div class="banner_s">
+                        <a href="https://www.motc.gov.tw/personnelo/" target="_blank">
+                            <img src="img/240x70_2.png" alt="交通部人事資訊網公務員版">
+                        </a>
+                    </div>
+                    <div class="banner_s">
+                        <a href="https://www.csptc.gov.tw/" target="_blank">
+                            <img src="img/240x70_3.png" alt="公務人員保障暨培訓委員會">
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+            </aside><!-- /aside -->
+
+            <section>
+                <div class="blocktitle">
+                    <a href="#"><span>最新消息</span></a>
+                </div>
+                <div class="newsbox">
+                    <ul class="newslist">
+                        <li> <a href="InfoDetail.aspx?cid=147"><div class="newstitle"> <div class="info"><div class="tag act">活動</div> <div class="time">108.01.18</div></div><div class="news">活動TEST<br>活動TEST活動TEST活動TEST活動TEST活動TEST活動TEST活動TEST</div></div><div Class="arrows"><img src="img/right-arrow.png" alt=""></div></a></li>
+                    </ul>
+                </div>
+                <!-- Photo-->
+                <div class="photo">
+                    <div class="blocktitle">
+                        <a href="#"><span>活動剪影</span></a>
+                    </div>
+
+                    <div class="photolist">
+                        <ul>
+                            <li><a class="venobox" data-gall="148" data-title="活動剪影TEST" href="img/photo/01.png"><img src="img/photo/01.png" /></a></li>
+                            <li><a class="venobox" data-gall="148" data-title="活動剪影TEST" href="img/photo/01.png"><img src="img/photo/05.png" /></a></li>
+                            <li><a class="venobox" data-gall="148" data-title="活動剪影TEST" href="img/photo/01.png"><img src="img/photo/20190129103412505.jpg" /></a></li>
+                            <li><a class="venobox" data-gall="148" data-title="活動剪影TEST" href="img/photo/01.png"><img src="img/photo/20190129113913697.jpg" /></a></li>       
+                            <li><a class="venobox" data-gall="148" data-title="活動剪影TEST" href="img/photo/01.png"><img src="img/photo/20190129113958454.jpg" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!--/Photo-->
+
+            </section><!-- /section -->
+
+        </div><!-- /wrapper -->
+
+        <footer>
+
+            <div class="wrapper">
+                <div class="visitor">當月瀏覽數 <span>1</span>　｜　總瀏覽數 <span>5748</span></div>
+                <div class="copyright">Copyright © 桃園國際機場人事服務網 版權所有｜<a href="mailto:eaps@mail.taoyuan-airport.com">聯絡資訊</a> ｜<a href="Privacy.aspx">隱私權及安全政策宣示</a></div>
+            </div>
+
+
+        </footer>
+    </form>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- venobox -->
+    <script type="text/javascript" src="js/venobox.min.js"></script>
+    <script>
+        	$(document).ready(function(){
+			    $('.venobox').venobox({
+			    	titleattr: 'data-title'
+			     });
+			});
+    </script>
+
+</body>
+
+</html>
