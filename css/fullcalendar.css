@@ -37,12 +37,12 @@
     box-sizing: border-box;
     /* dimensions */
     margin: 0;
-    height: 2.1em;
+    /*height: 2.1em;*/
     padding: 0 .6em;
     /* text & cursor */
     font-size: 1em;
     /* normalize */
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     cursor: pointer;
 }
 
@@ -788,7 +788,7 @@ NOTE: use percentage font sizes or else old IE chokes
 }
 
 .fc-basic-view .fc-body .fc-row {
-    min-height: 8em;
+    min-height: 12em;
     /* ensure that all rows are at least this tall */
 }
 
