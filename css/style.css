@@ -16,7 +16,6 @@ a {
 }
 
 img {
-    display: flex;
     max-width: 100%;
     height: auto;
 }
@@ -337,6 +336,10 @@ section {
     display: table-cell;
     vertical-align: middle;
     padding: 10px 0 10px 35px;
+}
+
+.arrows img {
+    max-width: none;
 }
 
 .info {
