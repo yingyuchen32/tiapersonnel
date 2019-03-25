@@ -15,6 +15,15 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    opacity: 0.8;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -665,12 +674,17 @@ section {
 
 .photolist ul li {
     max-width: 24.6%;
-    max-height: 194px;
     display: inline-block;
     padding: 5px;
     list-style: none;
     overflow: hidden;
-    vertical-align: middle;
+    vertical-align: top;
+}
+
+.photolist ul li img {
+    max-width: 100%;
+    max-height: 194px;
+    overflow: hidden;
 }
 
 .photolist ul li:nth-child(4) {
@@ -681,6 +695,10 @@ section {
     display: flex;
     max-width: 100%;
     height: auto;
+}
+
+.photolist ul li a {
+    color: #000;
 }
 
 .breadbox {
