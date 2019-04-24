@@ -431,6 +431,10 @@ section {
     padding: 0 15px;
 }
 
+.tcolor {
+    background-color: ##ffe9f7;
+}
+
 .pgbox {
     text-align: center;
 }
